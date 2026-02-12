@@ -44,3 +44,11 @@ mindmap
       Method overriding
       Same method, different behavior
 ```
+
+## Pillars in OOP
+### Four Pillars in OOP
+- Abstraction
+- Encapsulation
+- Inheritance
+- Polymorphism
+
