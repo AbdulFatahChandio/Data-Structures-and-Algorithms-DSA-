@@ -55,4 +55,7 @@ Object literal
 | Polymorphism  | Same method, different behavior   |
 
 
+```bash
+Objects → Constructor → Classes → 4 Pillars → Inheritance → Polymorphism → Prototypes → Design Patterns
+```
 
