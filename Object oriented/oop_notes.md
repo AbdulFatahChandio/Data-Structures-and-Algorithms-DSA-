@@ -36,6 +36,39 @@ const user = {
 user.getUser();
 ```
 
+## Constructors Function
+- A constructor function is a special function used to create objects.
+- We use the new keyword with constructor functions.
+
+```bash
+function User(userName, loginCount, isLoggedIn) {
+    this.userName = userName;
+    this.loginCount = loginCount;
+    this.isLoggedIn = isLoggedIn;
+}
+
+const userOne = new User("Abdul Fatah", 8, true);
+const userTwo = new User("Ali", 3, false);
+const userThree = User("Abdul Qadir", 8, true); // It override the values in old function
+
+console.log("User One:", userOne);
+console.log("User Two:", userTwo);
+
+## output :
+User {
+  userName: 'Abdul Fatah',
+  loginCount: 8,
+  isLoggedIn: true
+}
+
+User {
+  userName: 'Ali',
+  loginCount: 3,
+  isLoggedIn: false
+}
+
+```
+
 # Why we use OOP?
 
 ## Parts of OOP
