@@ -12,6 +12,30 @@
 - Collection of properties and methods
 - toLowerCase
 
+```bash
+const user = {
+    userName : "abdul fatah",
+    loginCount:8,
+    signedIn:true
+}
+console.log(user.userName)
+console.log(this.userName) // this does NOT refer to user here.
+```
+-> this.userName inside method → refers to object
+```bash
+const user = {
+    userName: "abdul fatah",
+    loginCount: 8,
+    signedIn: true,
+
+    getUser() {
+        console.log(this.userName);
+    }
+}
+
+user.getUser();
+```
+
 # Why we use OOP?
 
 ## Parts of OOP
