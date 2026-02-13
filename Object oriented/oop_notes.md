@@ -69,6 +69,23 @@ User {
 
 ```
 
+# Access modifiers 
+- Access modifiers control where a variable or method can be accessed from.
+### Main Types:
+
+- Public
+
+- Private
+
+- Protected (not natively supported in JS, but can be simulated)
+
+| Modifier  | Accessible Where      | JavaScript Support        |
+| --------- | --------------------- | ------------------------- |
+| Public    | Everywhere            | Yes                       |
+| Private   | Inside class only     | Yes (`#privateField`)     |
+| Protected | Class + Child classes | No (by convention `_var`) |
+
+
 # Why we use OOP?
 
 ## Parts of OOP
